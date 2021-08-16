@@ -20,7 +20,10 @@ public class passagem{
                 System.out.print("\033[H\033[2J");  
                 System.out.flush(); 
                 System.out.printf("Vai custar " + preco + "R$\n");
+<<<<<<< HEAD
                 System.out.printf("By SoenShem.");
+=======
+>>>>>>> main
             }else if (preco == 2){
                 preco = 400;
                 System.out.printf("Quantas passagens ?\n");
@@ -29,10 +32,15 @@ public class passagem{
                 System.out.print("\033[H\033[2J");  
                 System.out.flush(); 
                 System.out.printf("Vai custar " + preco + "R$\n");
+<<<<<<< HEAD
                 System.out.printf("By SoenShem.");
             }else{
                 System.out.printf("Escolha um plano.\n");
                 System.out.printf("By SoenShem.");
+=======
+            }else{
+                System.out.printf("Escolha um plano.\n");
+>>>>>>> main
             }
         }else if (regiao.equalsIgnoreCase("Norte")){
             System.out.printf("Temos os planos:\n    1 - Ida e volta\n    2 - Somente ida\n Escolha um plano de viagem: ");
@@ -45,7 +53,10 @@ public class passagem{
                 System.out.print("\033[H\033[2J");  
                 System.out.flush(); 
                 System.out.printf("Vai custar " + preco + "R$\n");
+<<<<<<< HEAD
                 System.out.printf("By SoenShem.");
+=======
+>>>>>>> main
             }else if (preco == 2){
                 preco = 345;
                 System.out.printf("Quantas passagens ?\n");
@@ -54,10 +65,15 @@ public class passagem{
                 System.out.print("\033[H\033[2J");  
                 System.out.flush(); 
                 System.out.printf("Vai custar " + preco + "R$\n");
+<<<<<<< HEAD
                 System.out.printf("By SoenShem.");
             }else{
                 System.out.printf("Escolha um plano.\n");
                 System.out.printf("By SoenShem.");
+=======
+            }else{
+                System.out.printf("Escolha um plano.\n");
+>>>>>>> main
             }
         }else if (regiao.equalsIgnoreCase("Centro") | regiao.equalsIgnoreCase("Centro-oeste")){
             System.out.printf("Temos os planos:\n    1 - Ida e volta\n    2 - Somente ida\n Escolha um plano de viagem: ");
@@ -70,7 +86,10 @@ public class passagem{
                 System.out.print("\033[H\033[2J");  
                 System.out.flush(); 
                 System.out.printf("Vai custar " + preco + "R$\n");
+<<<<<<< HEAD
                 System.out.printf("By SoenShem.");
+=======
+>>>>>>> main
             }else if (preco == 2){
                 preco = 448;
                 System.out.printf("Quantas passagens ?\n");
@@ -79,16 +98,24 @@ public class passagem{
                 System.out.print("\033[H\033[2J");  
                 System.out.flush(); 
                 System.out.printf("Vai custar " + preco + "R$\n");
+<<<<<<< HEAD
                 System.out.printf("By SoenShem.");
             }else{
                 System.out.printf("Escolha um plano.\n");
                 System.out.printf("By SoenShem.");
+=======
+            }else{
+                System.out.printf("Escolha um plano.\n");
+>>>>>>> main
             }
         }else{
             System.out.print("\033[H\033[2J");  
             System.out.flush(); 
             System.out.printf("Não encontrei o destino.\n\n");
+<<<<<<< HEAD
             System.out.printf("By SoenShem.");
+=======
+>>>>>>> main
             main(Args);
         }
     }
